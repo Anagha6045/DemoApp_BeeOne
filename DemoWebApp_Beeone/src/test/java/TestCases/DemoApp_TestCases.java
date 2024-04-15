@@ -31,6 +31,7 @@ public class DemoApp_TestCases extends BaseClass {
 	FakerUility fake_Utility;
 
 	@BeforeMethod(alwaysRun = true)
+	
 	@Parameters({ "Browser" })
 	public void initialization(String browser) throws Exception {
 
